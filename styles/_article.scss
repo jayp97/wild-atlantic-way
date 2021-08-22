@@ -1,0 +1,24 @@
+article{
+    padding-right: 1rem; 
+
+    .step{
+        min-height:40vh;
+        background-color: whitesmoke;
+        margin-bottom: 1rem;
+        transition: background-color 250ms ease-in-out;
+
+        &:last-of-type{
+            margin-bottom: 0;
+        }
+
+        &.is-active{
+            background-color: blue;
+        }
+    }
+
+    p{
+        margin: 0;
+        padding: 2rem;
+    }
+}
+

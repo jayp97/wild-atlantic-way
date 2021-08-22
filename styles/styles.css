@@ -1,0 +1,54 @@
+p {
+  font-family: Georgia, serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 28px;
+}
+
+.header {
+  height: 20rem;
+  background-color: whitesmoke;
+  text-align: center;
+}
+
+#scrolly-block .scrolly {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 40vw;
+  margin: 3rem auto;
+  padding: 1rem;
+  background-color: red;
+}
+
+article {
+  padding-right: 1rem;
+}
+
+article .step {
+  min-height: 40vh;
+  background-color: whitesmoke;
+  margin-bottom: 1rem;
+  -webkit-transition: background-color 250ms ease-in-out;
+  transition: background-color 250ms ease-in-out;
+}
+
+article .step:last-of-type {
+  margin-bottom: 0;
+}
+
+article .step.is-active {
+  background-color: blue;
+}
+
+article p {
+  margin: 0;
+  padding: 2rem;
+}
+
+* {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+/*# sourceMappingURL=styles.css.map */
