@@ -12,7 +12,10 @@ article{
         }
 
         &.is-active{
-            background-color: blue;
+            // background-color: cornsilk;
+            background-color: yellowgreen;
+
+            // color: red; 
         }
     }
 
@@ -20,5 +23,9 @@ article{
         margin: 0;
         padding: 2rem;
     }
+}
+
+.buffer{
+    height: 30vh;
 }
 

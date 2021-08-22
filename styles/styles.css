@@ -6,7 +6,7 @@ p {
 }
 
 .header {
-  height: 20rem;
+  height: 30rem;
   background-color: whitesmoke;
   text-align: center;
 }
@@ -15,10 +15,9 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  max-width: 40vw;
+  max-width: 50vw;
   margin: 3rem auto;
   padding: 1rem;
-  background-color: red;
 }
 
 article {
@@ -38,12 +37,29 @@ article .step:last-of-type {
 }
 
 article .step.is-active {
-  background-color: blue;
+  background-color: yellowgreen;
 }
 
 article p {
   margin: 0;
   padding: 2rem;
+}
+
+.buffer {
+  height: 30vh;
+}
+
+figure.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  max-height: 40vh;
+  width: 80%;
+  background-color: purple;
+  margin: 0;
+  left: 0;
+  top: 25vh;
+  -webkit-transition: background-color 1s ease-in-out;
+  transition: background-color 1s ease-in-out;
 }
 
 * {

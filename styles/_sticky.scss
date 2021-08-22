@@ -1,0 +1,10 @@
+figure.sticky{
+    position: sticky; 
+    max-height: 40vh; 
+    width: 80%;
+    background-color: purple;
+    margin: 0;
+    left: 0;
+    top: 25vh;
+    transition: background-color 1s ease-in-out; 
+}
